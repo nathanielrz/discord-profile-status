@@ -1,9 +1,18 @@
 # Discord Profile Status
+Available statuses:
+- offline
+- online
+- idle
+- do-not-disturb
 
-### Installing
+### Installing the package
 
 ```bash
 npm i discord-profile-status
+```
+OR
+```bash
+yarn add discord-profile-status
 ```
 
 ### Using
@@ -15,6 +24,12 @@ import { Profile } from "discord-profile-status";
 2. Adding status and image
 ```typescript
 export default function App() {
-  return <Profile status="offline/online/idle/do-not-disturb" image="./nathanielrz.png"></Profile>;
+  return <Profile status="do-not-disturb" image="./nathanielrz.png"></Profile>;
 }
 ```
+3. Output
+
+### Development
+1. Edit src/Profile.tsx
+2. Send a pull request
+3. Bundling for preview: `npm run build`
