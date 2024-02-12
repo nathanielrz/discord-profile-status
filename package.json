@@ -1,25 +1,20 @@
 {
   "name": "discord-profile-status",
   "version": "1.0.0",
-  "description": "",
-  "keywords": [
-    "discord",
-    "status",
-    "profiles"
-  ],
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/nathanielrz/discord-profile-status.git"
-  },
+  "keywords": [],
   "author": "nathanielrz",
-  "homepage": "https://github.com/nathanielrz/discord-profile-status#readme",
-  "license": "ISC",
-  "devDependencies": {
-    "@types/react": "^18.2.55",
-    "react": "^18.2.0",
-    "typescript": "^5.3.3"
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc"
   },
   "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
     "styled-components": "^6.1.8"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.55",
+    "@types/react-dom": "^18.2.19",
+    "typescript": "^5.3.3"
   }
 }
