@@ -23,11 +23,14 @@ import { Profile } from "discord-profile-status";
 ```
 2. Adding status and image
 ```typescript
+
 export default function App() {
   return <Profile status="do-not-disturb" image="./nathanielrz.png"></Profile>;
 }
 ```
 3. Output
+
+![image](https://github.com/nathanielrz/discord-profile-status/assets/131909495/7e39f45d-2890-4776-b6bc-9c08fdee2fb0)
 
 ### Development
 1. Edit src/Profile.tsx
