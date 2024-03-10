@@ -57,7 +57,7 @@ const C = styled.div`
 
 interface ProfileProps {
   image: string;
-  status: string;
+  status: "online" | "idle" | "do-not-disturb" | "offline";
 }
 
 const Profile = (props: ProfileProps) => {
